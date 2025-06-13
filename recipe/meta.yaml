@@ -1,5 +1,5 @@
 {% set name = "panel-material-ui" %}
-{% set version = "0.1.4" %}
+{% set version = "0.2.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/panel_material_ui-{{ version }}.tar.gz
-  sha256: c7b7b981a51e1f7c3f209803ce338dc39e855784e04263093d80092a9e16bc53
+  sha256: e47067b12f1a76458a0f392221dd4b3bdb3a60cd548302f739ee3912d888954c
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - hatchling
     - hatch-vcs
     - panel >=1.7.0
-    - nodejs
+    - nodejs >=22.*
     - esbuild
     - packaging
     - pip
