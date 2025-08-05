@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/panel_material_ui-{{ version }}.tar.gz
-  sha256: b4574fa21d30761ad781fb8578ca6eaecd0fa5c0283991a9f81ab9e24df7519d
+  sha256: 9af911fe77a1eff8c8308c0d19d955bab39f6e34cf0f18be2470e6552e7ae510
 
 build:
   noarch: python
