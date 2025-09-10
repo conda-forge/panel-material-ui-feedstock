@@ -20,15 +20,15 @@ requirements:
     - python {{ python_min }}
     - hatchling
     - hatch-vcs
-    - panel >=1.7.5
+    - panel >=1.8.0
     - nodejs >=22.*
     - esbuild
     - packaging
     - pip
   run:
     - python >={{ python_min }}
-    - panel >=1.7.5
-    - bokeh >=3.7.2
+    - panel >=1.8.0
+    - bokeh >=3.8.0
     - packaging
 
 test:
