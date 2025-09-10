@@ -148,6 +148,3 @@ Feedstock Maintainers
 * [@hoxbro](https://github.com/hoxbro/)
 * [@philippjfr](https://github.com/philippjfr/)
 
-
-<!-- dummy commit to enable rerendering -->
-
