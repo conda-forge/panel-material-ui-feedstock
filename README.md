@@ -146,5 +146,6 @@ Feedstock Maintainers
 =====================
 
 * [@hoxbro](https://github.com/hoxbro/)
+* [@maximlt](https://github.com/maximlt/)
 * [@philippjfr](https://github.com/philippjfr/)
 
