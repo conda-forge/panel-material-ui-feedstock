@@ -27,9 +27,10 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - panel >=1.8.0
     - bokeh >=3.8.0
     - packaging
+  run_constrained:
+    - panel >=1.9
 
 test:
   imports:
