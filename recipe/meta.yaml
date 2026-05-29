@@ -1,5 +1,5 @@
 {% set name = "panel-material-ui" %}
-{% set version = "0.11.0" %}
+{% set version = "0.11.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/panel_material_ui-{{ version }}.tar.gz
-  sha256: c44c0a45cd06d97d203876516637f7daa518585024f94004872a4049e50c2234
+  sha256: ef0912f6d0621d176d8f085f93027aafa00dc4934d04b4fd82d03a51ea29ea22
 
 build:
   noarch: python
@@ -20,14 +20,14 @@ requirements:
     - python {{ python_min }}
     - hatchling
     - hatch-vcs
-    - panel >=1.8.0
+    - panel-core >=1.8.0
     - nodejs >=22.*
     - esbuild
     - packaging
     - pip
   run:
     - python >={{ python_min }}
-    - panel >=1.8.0
+    - panel-core >=1.8.0
     - bokeh >=3.8.0
     - packaging
 
