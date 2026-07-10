@@ -150,6 +150,3 @@ Feedstock Maintainers
 * [@maximlt](https://github.com/maximlt/)
 * [@philippjfr](https://github.com/philippjfr/)
 
-
-<!-- dummy commit to enable rerendering -->
-
