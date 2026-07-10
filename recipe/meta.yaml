@@ -1,5 +1,5 @@
 {% set name = "panel-material-ui" %}
-{% set version = "0.13.0" %}
+{% set version = "0.14.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/panel_material_ui-{{ version }}.tar.gz
-  sha256: acbe510cbe1e5b11b313d51337dc8e3ce44d6161c0272e4587dfb2a4e3b98cb6
+  sha256: 486f1e163aa62c2221a5a0003208feb143b135ff563f418d1df30ce2647db665
 
 build:
   noarch: python
