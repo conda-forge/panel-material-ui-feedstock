@@ -1,6 +1,6 @@
 {% set name = "panel-material-ui" %}
-{% set version = "0.16.7" %}
-{% set python_min = "3.10" %}
+{% set version = "0.17.0" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/panel_material_ui-{{ version }}.tar.gz
-  sha256: 2eb3fb21febe1173f72bd7db537d888a291406fa59e79f33519372ec415da995
+  sha256: 8de73566ce3bda6077870dc393557341e177f55a456934d35cbd6b23a91f676c
 
 build:
   noarch: python
@@ -27,8 +27,8 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - panel-core >=1.9.0
-    - bokeh >=3.9.0
+    - panel-core >=1.10.0
+    - bokeh >=3.10.0
     - packaging
 
 test:
